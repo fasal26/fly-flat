@@ -53,7 +53,7 @@ defineProps<{
 
 <style module>
 .flightCard {
-  width: 20%;
+  width: 19%;
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 8px;
