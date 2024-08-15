@@ -7,7 +7,7 @@ import {
 const BestDeals = () => import('@pages/BestDeals.vue')
 
 const router = _createRouter({
-  history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
+  history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory('/fly-flat/'),
   routes: [
     { 
       path: "/", 
