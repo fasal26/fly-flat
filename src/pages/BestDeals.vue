@@ -42,7 +42,7 @@ watch(() => route.query, () => {
 });
 
 const handleNav = () => {
-  route.query.city ? router.push('/best-deals') : router.push('/best-deals?city=New York')
+  route.query.city ? router.push('/') : router.push('?city=New York')
 }
 
 const getDeals = () => {

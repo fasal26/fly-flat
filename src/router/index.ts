@@ -10,7 +10,7 @@ const router = _createRouter({
   history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
   routes: [
     { 
-      path: "/best-deals", 
+      path: "/", 
       name: 'Best Deals', 
       component: BestDeals 
     },
